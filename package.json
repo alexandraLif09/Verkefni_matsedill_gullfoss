@@ -1,0 +1,31 @@
+{
+  "name": "basicverkefni",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000V\u0000e\u0000r\u0000k\u0000e\u0000f\u0000n\u0000i\u0000_\u0000m\u0000a\u0000t\u0000s\u0000e\u0000d\u0000i\u0000l\u0000l\u0000_\u0000g\u0000u\u0000l\u0000l\u0000f\u0000o\u0000s\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "sass": "sass public/scss/main.scss public/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandraLif09/Verkefni_matsedill_gullfoss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alexandraLif09/Verkefni_matsedill_gullfoss/issues"
+  },
+  "homepage": "https://github.com/alexandraLif09/Verkefni_matsedill_gullfoss#readme",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "sass": "^1.99.0"
+  }
+}
