@@ -1,0 +1,84 @@
+$primary-color: #b6f2ec;
+$accent-color: #2bb8b3;
+$hover-color: pink;
+$padding-standard: 1rem;
+$margin-standard: 1rem;
+$border-radius: 8px;
+$border-radius-button: 6px;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 14px;
+}
+
+#matsedill {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.matur-card {
+    padding: $padding-standard;
+    margin: $margin-standard 0;
+    border-radius: $border-radius;
+    background: $primary-color;
+    flex: 1;
+    min-width: 200px;
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: $border-radius;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.foss-info {
+    padding: $padding-standard;
+    margin: $margin-standard 0;
+    border-radius: $border-radius;
+    background: $primary-color;
+    flex: 1;
+    border-right: $accent-color solid 20px;
+}
+
+#buttons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: $border-radius-button;
+    background: $primary-color;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+
+    &:hover {
+        background: $hover-color;
+    }
+}
