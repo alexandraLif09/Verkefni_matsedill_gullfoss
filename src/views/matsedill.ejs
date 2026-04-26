@@ -1,9 +1,24 @@
 <%- include('partials/header') %>
 
-<section>
-    <div>
-        <h2>Matseðill Fb</h2>
-    </div>
-</section>
+    <section>
+        <div>
+            <h2>Matseðill FB</h2>
+        </div>
+        <div id="">
+            <% days.forEach(day=> { %>
+                <div class="">
+                    <h3>
+                        <%= day.dagur %>
+                    </h3>
+                    <% if (day.image) { %>
+                        <img src="<%= day.image %>" alt="<%= day.dagur %>">
+                        <% } %>
+                            <p>
+                                <%= day.matur %>
+                            </p>
+                </div>
+                <% }); %>
+        </div>
+    </section>
 
-<%- include('partials/footer') %>
+    <%- include('partials/footer') %>
