@@ -1,0 +1,32 @@
+[
+    {
+        "id": "man",
+        "dagur": "Mánudagur",
+        "matur": "Fiskur í raspi, kartöflur, rúgbrauð og tartarsósa",
+        "image": "images/fiskur.jpg"
+    },
+    {
+        "id": "thri",
+        "dagur": "Þriðjudagur",
+        "matur": "Kjúklingur og hrísgrjón",
+        "image": "images/kjuklingur.jpg"
+    },
+    {
+        "id": "mid",
+        "dagur": "Miðvikudagur",
+        "matur": "Pasta með sósu",
+        "image": "images/pasta.jpg"
+    },
+    {
+        "id": "fim",
+        "dagur": "Fimmtudagur",
+        "matur": "Hamborgari og franskar",
+        "image": "images/hamborgari.jpg"
+    },
+    {
+        "id": "fos",
+        "dagur": "Föstudagur",
+        "matur": "Pizza",
+        "image": "images/pizza.jpg"
+    }
+]
